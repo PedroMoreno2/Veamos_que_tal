@@ -10,4 +10,6 @@ if ele==listaopciones[0]:
   st.text("elegiste aaa")
 elif ele==listaopciones[1]:
   st.markdown("elegiste :red[bbbb]")
-  
+cosita=st.checkbox("ele mi niño")
+if cosita:
+  st.text("elegiste bien")
