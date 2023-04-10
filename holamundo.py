@@ -5,7 +5,7 @@ st.caption("esto es un caption")
 st.markdown("😜:alien:")
 
 listaopciones=["a","b","c"]
-ele=st.radio("elige:",listaopciones,index=1)
+ele=st.radio("elige:",listaopciones)
 if ele==listaopciones[0]:
   st.text("elegiste aaa")
 elif ele==listaopciones[1]:
